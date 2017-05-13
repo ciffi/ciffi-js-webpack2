@@ -1,10 +1,10 @@
 {
   "name": "ciffi-js-webpack2",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": {
     "name": "Ciffi"
   },
-  "description": "Ciffi-js frontend base project for webpack installation",
+  "description": "Ciffi-js frontend base project for webpack2 installation",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ciffi/ciffi-js-webpack2.git"
