@@ -12,7 +12,7 @@ module.exports = {
 		main: './@REPLACE__ASSETS__NAME@/scripts/main.js'
 	},
 	output: {
-		path: '@REPLACE__ASSETS@',
+		path: __dirname + '/' + '@REPLACE__ASSETS@',
 		filename: '[name].js'
 	},
 	devtool: 'eval',
@@ -23,7 +23,7 @@ module.exports = {
 				test: /\.js$/,
 				enforce: 'pre',
 				loader: 'eslint-loader',
-				exclude: './node_modules',
+				exclude: __dirname + '/' + './node_modules',
 				options: {
 					configFile: './.eslintrc'
 				}
