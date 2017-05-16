@@ -35,7 +35,7 @@
     "selenium-webdriver": "^2.53.3",
     "twig": "^1.10.4",
     "twig-loader": "^0.3.0",
-    "webpack": "2.2.1"
+    "webpack": "2.5.1"
   },
   "dependencies": {
     "breakpoint-sass": "^2.7.0",
