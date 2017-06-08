@@ -1,7 +1,9 @@
 'use strict';
 
 var CiffiSettings = {
+	devStartUrl: 'http://@REPLACE__CONFIG@.local/',
 	projectName: '@REPLACE__CONFIG@',
+	srcPathName: '@REPLACE__ASSETS__NAME@',
 	assetsPath: '@REPLACE__ASSETS@',
 	assetsPathName: '@REPLACE__ASSETS__NAME@',
 	bundle: '@REPLACE__BUNDLE__NAME@'

@@ -1,18 +1,13 @@
-/*
- *
- * replace _indexUrl variable with your development index page
- *
- * */
-var _indexUrl = 'http://@REPLACE__CONFIG@.local/';
-
+var ConfigFile = require(__dirname + '/.ciffisettings');
 var OpenBrowserPlugin = require('open-browser-webpack-plugin');
+var _indexUrl = 'http://' + ConfigFile.devStartUrl + '.local/';
 
 module.exports = {
 	entry: {
-		main: './@REPLACE__ASSETS__NAME@/scripts/main.js'
+		main: './' + ConfigFile.srcPathName + '/scripts/main.js'
 	},
 	output: {
-		path: __dirname + '/' + '@REPLACE__ASSETS@',
+		path: __dirname + '/' + ConfigFile.assetsPath,
 		filename: '[name].js'
 	},
 	devtool: 'eval',
