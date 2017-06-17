@@ -1,6 +1,6 @@
 var ConfigFile = require(__dirname + '/.ciffisettings');
 var OpenBrowserPlugin = require('open-browser-webpack-plugin');
-var _indexUrl = 'http://' + ConfigFile.devStartUrl + '.local/';
+var _indexUrl = ConfigFile.devStartUrl;
 
 module.exports = {
 	entry: {
